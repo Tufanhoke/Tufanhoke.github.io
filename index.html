@@ -15,31 +15,36 @@
 
         <h3></h3>
         <!-- Captcha that leads to a link -->
-        <a href="rolled.html" target="_blank">
-            <img onclick="showbutton();" src="Assets/Images/image.png" alt="recaptcha" width="380" height="100" style="width: 360px; height: 100px;">
+        <a href="https://tufanhoke.github.io/rolled.html" target="_blank">
+            <img onclick="showbutton();" src="https://tufanhoke.github.io/Assets/Images/image.png" alt="recaptcha" width="380" height="100" style="width: 360px; height: 100px;">
         </a>
 
         <script>
             function showbutton() {
                 const dropdown = document.getElementById("dropdown");
                 dropdown.style.opacity = "1";
+
+                const dropdowntekst = document.getElementById("dropdowntekst");
+                dropdowntekst.style.opacity = "1";
             }
         </script>
 
          <!-- Dropdown HTML -->
-        <br><div style="opacity: 0;" id="dropdown" class="dropdown">
 
+         <div style="opacity: 0;" id="dropdowntekst">
             <p>Click on one of the links</p>
 
             <!-- Creates a second header to tell the user what to do -->
             <h2>Hover over the button to see the other pages!</h2>
+         </div>
    
+            <div class="dropdown" style="opacity: 0;" id="dropdown">
              <button class="dropbtn">Dropdown</button>
              <div class="dropdown-content">
-                 <a href="index.html">Home! (You are here!)</a>
-                 <a href="page2.html">Page 2!</a>
-                 <a href="aboutme.html">stuff about me!</a>
-                 <a href="binarysys.html">The binary system!</a>
+                 <a href="https://tufanhoke.github.io/index.html">Home! (You are here!)</a>
+                 <a href="https://tufanhoke.github.io/page2.html">Page 2!</a>
+                 <a href="https://tufanhoke.github.io/aboutme.html">stuff about me!</a>
+                 <a href="https://tufanhoke.github.io/binarysys.html">The binary system!</a>
              </div>
          </div>
        
