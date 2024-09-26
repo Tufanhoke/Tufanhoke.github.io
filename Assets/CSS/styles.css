@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     font-family: Montserrat, Arial;
+    background-color: lightblue;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -47,9 +49,6 @@ h3{text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
 
-body {
-    background-color: lightblue;
-  }
 
 
 
